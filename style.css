@@ -1,0 +1,118 @@
+/* todas as páginas */
+*{
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+}
+
+/* todos os parágrafos */
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* página index */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.514);
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: center;
+    gap: 10px;
+    flex-flow:wrap;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+    max-width: 200px;
+    object-fit: cover;
+    margin: 5px;
+    }
+
+/* página tatuadores */
+/* imagens */
+.tatuadores img{
+    float: left;
+
+}
+
+
+/* página contato */
+
+#area h1{
+    margin-left: 200px;
+}
+
+#form{
+    margin-left: 150px;
+}
+
+#area #form{
+    display: block;
+}
+
+fieldset{
+    width: 300px;
+    height: 370px;
+}
+
+legend{
+    font-style: bold;
+}
+
+
+/* botões do formulário */
+
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+button:active{
+    background-color: rgba(220, 220, 220, 0.87);
+    color: rgba(0, 0, 0, 0.781);
+    
+}
+
+
+/* mapa */
+.mapa{
+    margin-left: 150px;
+}
+
+/* horário de funcionamento */
+#span1{
+    float: left;
+}
+
+/* header logo */
+#logo img{
+    float: left;
+}
+
+/* header menu */
+#menu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#menu li a{
+    font-size: 110%;
+    float: left;
+    display: block;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: rgba(0, 0, 0, 0.068);
+    color: rgba(255, 255, 255, 0.452)
+}

@@ -1,2 +1,6 @@
-# anubis_tattoo_studio
-Projeto final do curso técnico do IF. Projeto feito em Junho/2022
+# Anubis Tattoo Studio
+> Projeto feito em Junho/2022
+
+Projeto final do curso técnico do IF.
+
+Ainda pretendo melhorar o projeto, quando possível.
